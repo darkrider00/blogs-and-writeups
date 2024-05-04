@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "f01d356a143cbece",
+    "type": "split",
+    "children": [
+      {
+        "id": "74ed200a8c497534",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e24ee5d6651f19a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hackthebox/Headless (easy).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4c7306cc3a7a0366",
+    "type": "split",
+    "children": [
+      {
+        "id": "27f3e7f7303ee449",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4010f29362041507",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5c6bff0215fb1ed0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "958c4cb4072a51a6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "09d2c3434281d7d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "995278a2a08350d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e638a67cf5be4506",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Hackthebox/Headless (easy).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a18e9024a21ab989",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Hackthebox/Headless (easy).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1d53cc6fc3e88160",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9f6b814de37d4235",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Hackthebox/Headless (easy).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e24ee5d6651f19a4",
+  "lastOpenFiles": [
+    "projects and writeups",
+    "Hackthebox/Headless (easy).md",
+    "honeypot/Crafting a Honeypot with Digital Ocean and Cowrie.md",
+    "Hackthebox/Academy (Easy).md",
+    "Hackthebox/Builder (Medium).md",
+    "Hackthebox/HTB - Perfection (EASY).md",
+    "Hackthebox/Keeper (EASY).md",
+    "attachments/Pasted image 20240428175215.png",
+    "attachments/Pasted image 20240428174954.png",
+    "attachments/Pasted image 20240428174743.png",
+    "attachments/Pasted image 20240428174705.png",
+    "attachments/Pasted image 20240428174552.png",
+    "attachments/Pasted image 20240428174443.png",
+    "attachments/Pasted image 20240428174235.png",
+    "attachments/Pasted image 20240428173912.png",
+    "attachments/Pasted image 20240428173826.png",
+    "attachments/Pasted image 20240428173754.png",
+    "checklist/Checklist.md",
+    "Hackthebox/Admirer (Easy).md",
+    "Untitled",
+    "bandit/Level 4.md",
+    "bandit/Level 3.md",
+    "bandit/level 2.md",
+    "bandit/Level 1.md",
+    "checklist",
+    "python.md",
+    "Hackthebox",
+    "bandit/Level 5.md",
+    "honeypot/attachments",
+    "honeypot",
+    "consistency-report.md",
+    "bandit/level 0.md",
+    "attachments",
+    "bandit"
+  ]
+}
