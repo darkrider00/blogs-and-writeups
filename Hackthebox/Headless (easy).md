@@ -1,1 +1,0 @@
-Starting with basic nmap scan first

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackthebox/Headless (easy).md",
+                "file": "portswigger academy/Server side Vuln/File Path traversal, simple case.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackthebox/Headless (easy).md",
+                "file": "portswigger academy/Server side Vuln/File Path traversal, simple case.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackthebox/Headless (easy).md",
+                "file": "portswigger academy/Server side Vuln/File Path traversal, simple case.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackthebox/Headless (easy).md"
+                "file": "portswigger academy/Server side Vuln/File Path traversal, simple case.md"
               }
             }
           }
@@ -148,26 +148,36 @@
   },
   "active": "e24ee5d6651f19a4",
   "lastOpenFiles": [
-    "projects and writeups",
+    "attachments/Pasted image 20240514192759.png",
+    "attachments/Pasted image 20240514192543.png",
+    "attachments/Pasted image 20240514192015.png",
+    "attachments/Pasted image 20240514191137.png",
+    "attachments/Pasted image 20240514190736.png",
+    "attachments/Pasted image 20240514190534.png",
+    "attachments/Pasted image 20240514190029.png",
+    "attachments/Pasted image 20240514185739.png",
+    "attachments/Pasted image 20240514185624.png",
+    "portswigger academy/Server side Vuln/Untitled 1.md",
+    "portswigger academy/Server side Vuln/File Path traversal, simple case.md",
+    "Hackthebox/windows/CRAFTY (EASY).md",
+    "portswigger academy/Server side Vuln",
+    "portswigger academy",
+    "attachments/Pasted image 20240507104237.png",
+    "attachments/Pasted image 20240507103801.png",
+    "Hackthebox/Linux",
+    "misc/Remote Access to MariaDB.md",
+    "Hackthebox/windows",
     "Hackthebox/Headless (easy).md",
+    "Hackthebox/Admirer (easy).md",
+    "misc",
+    "projects and writeups",
     "honeypot/Crafting a Honeypot with Digital Ocean and Cowrie.md",
-    "Hackthebox/Academy (Easy).md",
-    "Hackthebox/Builder (Medium).md",
-    "Hackthebox/HTB - Perfection (EASY).md",
-    "Hackthebox/Keeper (EASY).md",
-    "attachments/Pasted image 20240428175215.png",
-    "attachments/Pasted image 20240428174954.png",
-    "attachments/Pasted image 20240428174743.png",
-    "attachments/Pasted image 20240428174705.png",
-    "attachments/Pasted image 20240428174552.png",
-    "attachments/Pasted image 20240428174443.png",
-    "attachments/Pasted image 20240428174235.png",
-    "attachments/Pasted image 20240428173912.png",
-    "attachments/Pasted image 20240428173826.png",
-    "attachments/Pasted image 20240428173754.png",
+    "Hackthebox/Linux/Academy (Easy).md",
+    "Hackthebox/Linux/Builder (Medium).md",
+    "Hackthebox/Linux/HTB - Perfection (EASY).md",
+    "Hackthebox/Linux/Keeper (EASY).md",
     "checklist/Checklist.md",
     "Hackthebox/Admirer (Easy).md",
-    "Untitled",
     "bandit/Level 4.md",
     "bandit/Level 3.md",
     "bandit/level 2.md",
@@ -179,8 +189,6 @@
     "honeypot/attachments",
     "honeypot",
     "consistency-report.md",
-    "bandit/level 0.md",
-    "attachments",
-    "bandit"
+    "bandit/level 0.md"
   ]
 }

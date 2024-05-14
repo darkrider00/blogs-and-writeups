@@ -1,11 +1,11 @@
 I started with a Nmap scan to know things that are running on this machine 
 
-![](../attachments/Pasted%20image%2020240331113546.png)
+![](../../attachments/Pasted%20image%2020240331113546.png)
 from the above nmap scan we can see port 22 and 8080 is open 
 in port 8080 jetty is running (jetty is a java web server or a servelet container)
 https://en.wikipedia.org/wiki/Jetty_(web_server)
 
-![](../attachments/Pasted%20image%2020240331113836.png)
+![](../../attachments/Pasted%20image%2020240331113836.png)
 
 Here's the jenikins dashboard and jenikins version is 2.441
 
@@ -20,7 +20,7 @@ After a bit of searching i finally fund the vuln for 2.441 version
 https://github.com/vulhub/vulhub/tree/master/jenkins/CVE-2024-23897?source=post_page-----143ad7fde347--------------------------------
 
 
-![](../attachments/Pasted%20image%2020240331114637.png)
+![](../../attachments/Pasted%20image%2020240331114637.png)
 
 from the above information, The `jenkins-cli.jar` file is a Java archive file that contains the Jenkins CLI utility. This utility allows users to interact with Jenkins from the command line or from scripts.
 
@@ -44,7 +44,7 @@ Jenkins CLI allows users to reference a file path using the syntax @[filepath], 
 5. **Command Execution**: Finally, Jenkins executes the modified command or script with the replaced file contents.
 
 i downloaded the jenikins cli using the wget command 
-![](../attachments/Pasted%20image%2020240331121014.png)
+![](../../attachments/Pasted%20image%2020240331121014.png)
 
 the command java -jar jenikind-cli.jar -s 'ip:port' help to give the list of all the commands 
 
@@ -197,28 +197,28 @@ ERROR: No such command kali. Available commands are above.
 The above are the list of commands we can execute in jenikins CLI
 
 i executed whoami cmd here
-![](../attachments/Pasted%20image%2020240331121429.png)
+![](../../attachments/Pasted%20image%2020240331121429.png)
 
-![](../attachments/Pasted%20image%2020240331122025.png)
+![](../../attachments/Pasted%20image%2020240331122025.png)
 
 `'@/etc/passwd'`: This part of the command is specifying a file path, `'/etc/passwd'`, using the syntax `@filepath`
 
-![](../attachments/Pasted%20image%2020240331122250.png)
+![](../../attachments/Pasted%20image%2020240331122250.png)
 
 We found the hostname by reading /etc/hostname file
 The hostname is “0f52c222a4cc”.
 
 I googled where Jenkins user files are stored
 
-![](../attachments/Pasted%20image%2020240331140629.png)
+![](../../attachments/Pasted%20image%2020240331140629.png)
 
 so modified the code and tried to read the user.txt file and got the user flag 
 
-![](../attachments/Pasted%20image%2020240331142430.png)
+![](../../attachments/Pasted%20image%2020240331142430.png)
 
 Jenkins [stores information](https://dev.to/pencillr/spawn-a-jenkins-from-code-gfa) about its user accounts in `/var/jenkins_home/users/users.xml`. Using `reload-node`, I’ll get the lines of that file, albeit a bit scrambed:
 
-![](../attachments/Pasted%20image%2020240331141106.png)
+![](../../attachments/Pasted%20image%2020240331141106.png)
 
 with this command i got the jennifier id with this i tried to view config file of jenifer 
 
@@ -226,8 +226,8 @@ java -jar jenkins-cli.jar -s 'http://10.129.230.169:8080' reload-job '@/var/jenk
 
 the output is very clumsy but in the end i found a password hash shown below
 
-![](../attachments/Pasted%20image%2020240331134945.png)
-![](../attachments/Pasted%20image%2020240331135036.png)
+![](../../attachments/Pasted%20image%2020240331134945.png)
+![](../../attachments/Pasted%20image%2020240331135036.png)
 
 There's another way to get this password hash using Python code proof-of-concept (PoC) for exploiting a vulnerability in Jenkins servers that allows arbitrary file read through the Jenkins CLI.
 where i've mentioned below [Python POCs](#Python%20POCs)
@@ -237,31 +237,31 @@ I used JTR to crack the password in the config.xml he format is specified as bcr
 and then with the username jennifer and password princess i logged into the jenikins and here's the view of global credentials management 
 
 earlier we are unable to open this beacuse we aren't logged in as jennifer 
-![](../attachments/Pasted%20image%2020240331135419.png)
+![](../../attachments/Pasted%20image%2020240331135419.png)
 
 if you inspect the value you will find private key in commented sections 
 
-![](../attachments/Pasted%20image%2020240331132427.png)
+![](../../attachments/Pasted%20image%2020240331132427.png)
 
 we found the private key but it's encrypted so i googled how to decrypt Jenkins private key or secret key and it led me to this 
 
-![](../attachments/Pasted%20image%2020240331133823.png)
+![](../../attachments/Pasted%20image%2020240331133823.png)
 
 In the script console under manage jenkins i'v epasted this script i found in stack exchange and got the ssh key 
-![](../attachments/Pasted%20image%2020240331140116.png)
+![](../../attachments/Pasted%20image%2020240331140116.png)
 
 so i stored the key and accessd ssh i got the shell login but for everything i do i'm getting permission denied as below
 
-![](../attachments/Pasted%20image%2020240331134218.png)
-![](../attachments/Pasted%20image%2020240331134254.png)
+![](../../attachments/Pasted%20image%2020240331134218.png)
+![](../../attachments/Pasted%20image%2020240331134254.png)
 
 so i gave the root permissions to the ssh file and logged in again and i got the root access as below
 
-![](../attachments/Pasted%20image%2020240331134319.png)
+![](../../attachments/Pasted%20image%2020240331134319.png)
 
 cat root.txt gave me the root flag 
 
-![](../attachments/Pasted%20image%2020240331134642.png)
+![](../../attachments/Pasted%20image%2020240331134642.png)
 
 
 
