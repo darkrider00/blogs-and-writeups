@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "portswigger academy/Server side Vuln/File Path traversal, simple case.md",
+                "file": "portswigger academy/SQL injection/SQL injection attack, querying the database type and version on Oracle.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "portswigger academy/Server side Vuln/File Path traversal, simple case.md",
+                "file": "portswigger academy/SQL injection/SQL injection attack, querying the database type and version on Oracle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "portswigger academy/Server side Vuln/File Path traversal, simple case.md",
+                "file": "portswigger academy/SQL injection/SQL injection attack, querying the database type and version on Oracle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "portswigger academy/Server side Vuln/File Path traversal, simple case.md"
+                "file": "portswigger academy/SQL injection/SQL injection attack, querying the database type and version on Oracle.md"
               }
             }
           }
@@ -148,22 +148,28 @@
   },
   "active": "e24ee5d6651f19a4",
   "lastOpenFiles": [
-    "attachments/Pasted image 20240514192759.png",
-    "attachments/Pasted image 20240514192543.png",
-    "attachments/Pasted image 20240514192015.png",
-    "attachments/Pasted image 20240514191137.png",
-    "attachments/Pasted image 20240514190736.png",
-    "attachments/Pasted image 20240514190534.png",
-    "attachments/Pasted image 20240514190029.png",
-    "attachments/Pasted image 20240514185739.png",
-    "attachments/Pasted image 20240514185624.png",
+    "attachments/Pasted image 20240528113833.png",
+    "attachments/Pasted image 20240528113754.png",
+    "attachments/Pasted image 20240528112609.png",
+    "attachments/Pasted image 20240528112029.png",
+    "attachments/Pasted image 20240528111621.png",
+    "attachments/Pasted image 20240528111334.png",
+    "attachments/Pasted image 20240528110905.png",
+    "portswigger academy/SQL injection/SQL injection vulnerability allowing login bypass.md",
+    "portswigger academy/SQL injection/SQL injection attack, querying the database type and version on Oracle.md",
+    "attachments/Pasted image 20240528110813.png",
+    "attachments/Pasted image 20240528110650.png",
+    "attachments/Pasted image 20240528104736.png",
+    "attachments/Pasted image 20240528104517.png",
+    "portswigger academy/SQL injection/SQL injection vulnerability in WHERE clause allowing retrieval of hidden data.md",
+    "portswigger academy/SQL injection/SQL injection with filter bypass via XML encoding.md",
     "portswigger academy/Server side Vuln/Untitled 1.md",
     "portswigger academy/Server side Vuln/File Path traversal, simple case.md",
+    "Hackthebox/Linux/Academy (Easy).md",
+    "portswigger academy/SQL injection",
     "Hackthebox/windows/CRAFTY (EASY).md",
     "portswigger academy/Server side Vuln",
     "portswigger academy",
-    "attachments/Pasted image 20240507104237.png",
-    "attachments/Pasted image 20240507103801.png",
     "Hackthebox/Linux",
     "misc/Remote Access to MariaDB.md",
     "Hackthebox/windows",
@@ -172,7 +178,6 @@
     "misc",
     "projects and writeups",
     "honeypot/Crafting a Honeypot with Digital Ocean and Cowrie.md",
-    "Hackthebox/Linux/Academy (Easy).md",
     "Hackthebox/Linux/Builder (Medium).md",
     "Hackthebox/Linux/HTB - Perfection (EASY).md",
     "Hackthebox/Linux/Keeper (EASY).md",
@@ -187,7 +192,6 @@
     "Hackthebox",
     "bandit/Level 5.md",
     "honeypot/attachments",
-    "honeypot",
     "consistency-report.md",
     "bandit/level 0.md"
   ]
