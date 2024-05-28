@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "portswigger academy/SQL injection/SQL injection attack, querying the database type and version on Oracle.md",
+                "file": "portswigger academy/SQL injection/SQL injection attack, listing the database contents on Oracle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5300cece06566aea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "portswigger academy/SQL injection/SQL injection UNION attack, determining the number of columns returned by the query.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "portswigger academy/SQL injection/SQL injection attack, querying the database type and version on Oracle.md",
+                "file": "portswigger academy/SQL injection/SQL injection UNION attack, determining the number of columns returned by the query.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "portswigger academy/SQL injection/SQL injection attack, querying the database type and version on Oracle.md",
+                "file": "portswigger academy/SQL injection/SQL injection UNION attack, determining the number of columns returned by the query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "portswigger academy/SQL injection/SQL injection attack, querying the database type and version on Oracle.md"
+                "file": "portswigger academy/SQL injection/SQL injection UNION attack, determining the number of columns returned by the query.md"
               }
             }
           }
@@ -146,23 +159,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e24ee5d6651f19a4",
+  "active": "5300cece06566aea",
   "lastOpenFiles": [
-    "attachments/Pasted image 20240528113833.png",
-    "attachments/Pasted image 20240528113754.png",
-    "attachments/Pasted image 20240528112609.png",
-    "attachments/Pasted image 20240528112029.png",
-    "attachments/Pasted image 20240528111621.png",
-    "attachments/Pasted image 20240528111334.png",
-    "attachments/Pasted image 20240528110905.png",
-    "portswigger academy/SQL injection/SQL injection vulnerability allowing login bypass.md",
+    "attachments/Pasted image 20240528171607.png",
+    "attachments/Pasted image 20240528171523.png",
+    "attachments/Pasted image 20240528171452.png",
+    "attachments/Pasted image 20240528171412.png",
+    "attachments/Pasted image 20240528170956.png",
+    "attachments/Pasted image 20240528170339.png",
+    "portswigger academy/SQL injection/SQL injection attack, listing the database contents on Oracle.md",
+    "portswigger academy/SQL injection/SQL injection UNION attack, determining the number of columns returned by the query.md",
+    "attachments/Pasted image 20240528170228.png",
+    "attachments/Pasted image 20240528170016.png",
+    "attachments/Pasted image 20240528165801.png",
+    "attachments/Pasted image 20240528165534.png",
+    "attachments/Pasted image 20240528165439.png",
+    "portswigger academy/SQL injection/SQL injection attack, querying the database type and version on MySQL and Microsoft.md",
     "portswigger academy/SQL injection/SQL injection attack, querying the database type and version on Oracle.md",
-    "attachments/Pasted image 20240528110813.png",
-    "attachments/Pasted image 20240528110650.png",
-    "attachments/Pasted image 20240528104736.png",
-    "attachments/Pasted image 20240528104517.png",
+    "portswigger academy/SQL injection/SQL injection vulnerability allowing login bypass.md",
     "portswigger academy/SQL injection/SQL injection vulnerability in WHERE clause allowing retrieval of hidden data.md",
     "portswigger academy/SQL injection/SQL injection with filter bypass via XML encoding.md",
+    "portswigger academy/SQL injection/SQL injection attack, listing the database contents on non-Oracle databases.md",
+    "portswigger academy/SQL CHEAT SHEET.md",
     "portswigger academy/Server side Vuln/Untitled 1.md",
     "portswigger academy/Server side Vuln/File Path traversal, simple case.md",
     "Hackthebox/Linux/Academy (Easy).md",
@@ -186,13 +204,8 @@
     "bandit/Level 4.md",
     "bandit/Level 3.md",
     "bandit/level 2.md",
-    "bandit/Level 1.md",
     "checklist",
-    "python.md",
     "Hackthebox",
-    "bandit/Level 5.md",
-    "honeypot/attachments",
-    "consistency-report.md",
-    "bandit/level 0.md"
+    "honeypot/attachments"
   ]
 }
