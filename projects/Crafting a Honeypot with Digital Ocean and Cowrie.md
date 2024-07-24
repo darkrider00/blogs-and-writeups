@@ -1,4 +1,6 @@
-![](../attachments/ITperfection-honeypot-network-security-antimalware-antivirus-cyber-security.jpg)roject Introduction: Setting Up a Honeypot with Digital Ocean and Cowrie**
+![](../../attachments/ITperfection-honeypot-network-security-antimalware-antivirus-cyber-security.jpg)
+
+project Introduction: Setting Up a Honeypot with Digital Ocean and Cowrie**
 
 In today's cybersecurity landscape, the ability to detect and mitigate threats is paramount. With the increasing sophistication of malicious actors, organizations must employ proactive measures to safeguard their networks and data. One such measure is the deployment of honeypots, deceptive systems designed to attract and trap potential attackers.
 
@@ -47,7 +49,7 @@ In cybersecurity, honeypots fulfill several pivotal roles. Firstly, they operate
 
 ### **How does it work**
 
-![](../![](../attachments/Pasted%20image%2020240326205937.png)arget.com
+![](../![](../../attachments/Pasted%20image%2020240326205937.png)arget.com
 
 Honeypots simulate real systems to attract potential attackers, placed in isolated environments like a demilitarized zone (DMZ) or outside the firewall. They monitor and log malicious activity, providing insights while diverting threats away from real assets. However, they can also be hijacked by cybercriminals for malicious purposes. Virtual machines (VMs) are commonly used for hosting honeypots, forming honeynets when deployed together. Both open-source and commercial solutions are available for deploying and managing honeypots, with platforms like GitHub offering various software options for beginners.
 ## **Benefits of Honeypots**
@@ -62,7 +64,7 @@ Honeypots simulate real systems to attract potential attackers, placed in isolat
 8. Honeypots have a low [false positive](https://www.howtogeek.com/180162/how-to-tell-if-a-virus-is-actually-a-false-positive/) That’s in stark contrast to traditional intrusion-detection systems (IDS) which can produce a high level of false alerts.
 ### **Using Digital ocean to setup the server**
 
-![](../attachm![](../attachments/Pasted%20image%2020240326210356.png)Ocean's cloud infrastructure services to set up and deploy a honeypot server. Digital Ocean provides virtual private servers known as Droplets, which offer flexibility and scalability for hosting various applications and services in the cloud environment.
+![](../attachm![](../../attachments/Pasted%20image%2020240326210356.png)Ocean's cloud infrastructure services to set up and deploy a honeypot server. Digital Ocean provides virtual private servers known as Droplets, which offer flexibility and scalability for hosting various applications and services in the cloud environment.
 
 With Digital Ocean's Droplets, I created a secure and isolated environment to host the honeypot, ensuring that it operates independently from other production systems. By leveraging Digital Ocean's infrastructure, I could easily monitor and manage the honeypot while having the flexibility to scale resources as needed.
 ### **Cowrie and why we are using it**
@@ -101,7 +103,7 @@ To ensure a clean and isolated installation of dependencies, we recommend creati
 To maintain continuous operation, I'm using tmux to create a separate session for the honeypot on the server.
 
 here's the tmux session of my honeypot:
-![](../attachments/Pa![](../attachments/Pasted%20image%2020240326211732.png)20![](../attachments/Pasted%20image%2020240326211913.png) should connect on is 222 you can change this in the cowrie.cfg.dist file located **/etc**.
+![](../attachments/Pa![](../../attachments/Pasted%20image%2020240326211732.png)20![](../../attachments/Pasted%20image%2020240326211913.png) should connect on is 222 you can change this in the cowrie.cfg.dist file located **/etc**.
 
 We need to use docker compose to deploy the honeypot
 if you want to know more about the docker : https://docs.docker.com/manuals/
@@ -112,10 +114,10 @@ if you want to know more about the docker : https://docs.docker.com/manuals/
     ```
 Source : github
 
-![](../attachments/Pasted%20image%2![](../attachments/Pasted%20image%2020240326211941.png)being recorded, as evidenced by the activity observed.
+![](../attachments/Pasted%20image%2![](../../attachments/Pasted%20image%2020240326211941.png)being recorded, as evidenced by the activity observed.
 ### **Nmap scan results** 
 
-![](../attachments/Pasted%20image%20202403![](../attachments/Pasted%20image%2020240326220524.png)g the real ssh port to 2222 and the default port for attacker connecting to our server is 22.
+![](../attachments/Pasted%20image%20202403![](../../attachments/Pasted%20image%2020240326220524.png)g the real ssh port to 2222 and the default port for attacker connecting to our server is 22.
 
 In this way the attacker thinks that port 22 is open on the ssh server and falls into our honeypot.
 
