@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tryhackme/Mr Robot CTF.md",
+                "file": "projects/Crafting a Honeypot with Digital Ocean and Cowrie.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tryhackme/Mr Robot CTF.md",
+                "file": "projects/Crafting a Honeypot with Digital Ocean and Cowrie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tryhackme/Mr Robot CTF.md",
+                "file": "projects/Crafting a Honeypot with Digital Ocean and Cowrie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tryhackme/Mr Robot CTF.md"
+                "file": "projects/Crafting a Honeypot with Digital Ocean and Cowrie.md"
               }
             }
           }
@@ -173,20 +173,23 @@
   },
   "active": "2cc84878e7e746c6",
   "lastOpenFiles": [
-    "attachments/Pasted image 20240724122511.png",
-    "attachments/Pasted image 20240724122409.png",
-    "attachments/Pasted image 20240724122121.png",
-    "attachments/Pasted image 20240724121819.png",
-    "attachments/Pasted image 20240724121635.png",
-    "attachments/Pasted image 20240724121519.png",
-    "attachments/Pasted image 20240724121423.png",
-    "attachments/Pasted image 20240724121315.png",
-    "attachments/Pasted image 20240724121036.png",
-    "attachments/Pasted image 20240724120938.png",
-    "attachments/Pasted image 20240724120558.png",
+    "Tryhackme/Intro to Cyber Threat Intel.md",
+    "attachments/Pasted image 20240805215735.png",
+    "attachments/Pasted image 20240805215706.png",
+    "attachments/Pasted image 20240805215642.png",
+    "attachments/Pasted image 20240805215619.png",
+    "attachments/Pasted image 20240805215543.png",
+    "attachments/Pasted image 20240805215511.png",
+    "attachments/Pasted image 20240805215038.png",
+    "attachments/Pasted image 20240805215023.png",
+    "Tryhackme/Startup.md",
+    "attachments/Pasted image 20240805210325.png",
+    "attachments/20.png",
+    "Tryhackme/Untitled.md",
+    "Tryhackme/Mr Robot CTF.md",
+    "Tryhackme/Basic pentesting CTF.md",
     "Hackthebox/Linux/Academy (Easy).md",
     "reverse shell.md",
-    "Tryhackme/Mr Robot CTF.md",
     "portswigger academy/SQL injection/SQL injection attack, listing the database contents on non-Oracle databases.md",
     "Tryhackme",
     "portswigger academy/SQL injection/SQL injection with filter bypass via XML encoding.md",
@@ -206,10 +209,6 @@
     "Hackthebox/Starting point/Tier 0/FAWN.md",
     "Hackthebox/Starting point/Tier 0/Dancing.md",
     "Hackthebox/Linux/HTB - Perfection (EASY).md",
-    "Hackthebox/Linux/Keeper (EASY).md",
-    "Hackthebox/Linux/Builder (Medium).md",
-    "bandit/Level 5.md",
-    "bandit/Level 4.md",
     "projects",
     "attachments",
     "Hackthebox/Starting point/Tier 1",
